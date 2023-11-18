@@ -58,7 +58,7 @@ The following are the module implementations provided by this package.
 | dns | --- |
 | domain | [bevry/domain-browser](https://github.com/bevry/domain-browser) |
 | events | [Gozala/events](https://github.com/Gozala/events) |
-| fs | --- |
+| fs | [itinance/react-native-fs](https://github.com/itinance/react-native-fs) |
 | http | [jhiesey/stream-http](https://github.com/jhiesey/stream-http) |
 | https | [substack/https-browserify](https://github.com/substack/https-browserify) |
 | module | --- |
