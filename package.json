@@ -1,6 +1,6 @@
 {
   "name": "@pagopa/io-react-native-nodelibs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node core modules for React Native",
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "punycode": "^2.1.0",
     "querystring-es3": "^0.2.0",
     "react-native-crypto": "^2.0.1",
+    "react-native-fs": "^2.20.0",
     "react-native-randombytes": "^3.5.1",
     "readable-stream": "^2.2.9",
     "stream-http": "^2.3.1",
