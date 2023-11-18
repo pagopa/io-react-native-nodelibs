@@ -1,10 +1,10 @@
 {
-  "name": "@pagopa/io-react-native-nodelibs",
+  "name": "@pagopa/react-native-nodelibs",
   "version": "0.0.1",
   "description": "Node core modules for React Native",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pagopa/io-react-native-nodelibs.git"
+    "url": "git+https://github.com/pagopa/react-native-nodelibs.git"
   },
   "dependencies": {
     "assert": "^1.4.1",
@@ -31,12 +31,12 @@
     "url": "^0.11.0",
     "util": "^0.10.3"
   },
-  "homepage": "http://github.com/pagopa/io-react-native-nodelibs",
+  "homepage": "http://github.com/pagopa/react-native-nodelibs",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "bugs": {
-    "url": "https://github.com/pagopa/io-react-native-nodelibs/issues"
+    "url": "https://github.com/pagopa/react-native-nodelibs/issues"
   }
 }

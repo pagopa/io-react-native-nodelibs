@@ -1,4 +1,4 @@
-# @pagopa/io-react-native-nodelibs
+# @pagopa/react-native-nodelibs
 
 This package provides **React Native** compatible implementations of Node core modules like `stream`, `crypto` and `http` avoiding the use of [rn-nodeify](https://github.com/tradle/rn-nodeify/) which is now deprecated.
 
@@ -7,7 +7,7 @@ This is a fork of [node-libs-react-native](https://github.com/parshap/node-libs-
 ## Installation
 
 ```sh
-yarn add @pagopa/io-react-native-nodelibs
+yarn add @pagopa/react-native-nodelibs
 ```
 
 ## Usage
@@ -24,19 +24,19 @@ Add a `metro.config.js` file in the root directory of your React Native project 
 // metro.config.js
 module.exports = {
   resolver: {
-    extraNodeModules: require('@pagopa/io-react-native-nodelibs'),
+    extraNodeModules: require('@pagopa/react-native-nodelibs'),
   },
 };
 ```
 
 ### Globals
 
-Node has certain globals that modules may expect, such as `Buffer` or `process`. React Native does not provide these globals. The [`@pagopa/io-react-native-nodelibs/globals`][globals] module in this package will shim the global environment to add these globals. Just require (or import) this module in your app before anything else.
+Node has certain globals that modules may expect, such as `Buffer` or `process`. React Native does not provide these globals. The [`@pagopa/react-native-nodelibs/globals`][globals] module in this package will shim the global environment to add these globals. Just require (or import) this module in your app before anything else.
 
 [globals]: ./globals.js
 
 ```js
-require('@pagopa/io-react-native-nodelibs/globals');
+require('@pagopa/react-native-nodelibs/globals');
 // ...
 require('./app.js');
 ```
