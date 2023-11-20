@@ -1,4 +1,4 @@
-let crypto = require.resolve("./crypto-module.js");
+const crypto = require.resolve("./crypto-module.js");
 
 exports.assert = require.resolve("assert/");
 exports.buffer = require.resolve("buffer/");
