@@ -91,6 +91,8 @@ The following are the module implementations provided by this package.
 The crypto modules have been replaced by their JavaScript-based versions.
 Below are the various modules implemented on `crypto`
 
+| Crypto module | RN-compatible |
+|:--------:|:----------------------:|
 | getRandomValues | [react-native-get-random-values](https://github.com/LinusU/react-native-get-random-values) |
 | createHash | [create-hash](https://github.com/browserify/createHash) |
 | createHmac | [create-hmac](https://github.com/browserify/createHmac) |
