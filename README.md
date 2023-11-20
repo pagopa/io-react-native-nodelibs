@@ -4,10 +4,15 @@ This package provides **React Native** compatible implementations of Node core m
 
 This is a fork of [node-libs-react-native](https://github.com/parshap/node-libs-react-native) which introduces some improvements and fixes compatible with new versions of node.
 
+`crypto.getRandomValues` is based on [react-native-get-random-values](https://github.com/LinusU/react-native-get-random-values#readme) native library. So you need to install it to be able to use `crypto`
+
 ## Installation
 
 ```sh
 yarn add @pagopa/react-native-nodelibs
+
+# If you need to use `crypto`
+yarn add react-native-get-random-values
 ```
 
 ## Usage
@@ -53,7 +58,7 @@ The following are the module implementations provided by this package.
 | cluster | --- |
 | console | [Raynos/console-browserify](https://github.com/Raynos/console-browserify) |
 | constants | [juliangruber/constants-browserify](https://github.com/juliangruber/constants-browserify) |
-| crypto | [mvayngrib/react-native-crypto](https://github.com/mvayngrib/react-native-crypto) |
+| crypto | [See the next paragraph](#crypto-modules) |
 | dgram | --- |
 | dns | --- |
 | domain | [bevry/domain-browser](https://github.com/bevry/domain-browser) |
@@ -80,3 +85,21 @@ The following are the module implementations provided by this package.
 | util | [defunctzombie/node-util](https://github.com/defunctzombie/node-util) |
 | vm | --- |
 | zlib | [devongovett/browserify-zlib](https://github.com/devongovett/browserify-zlib) |
+
+### Crypto Modules
+
+The crypto modules have been replaced by their JavaScript-based versions.
+Below are the various modules implemented on `crypto`
+
+| getRandomValues | [react-native-get-random-values](https://github.com/LinusU/react-native-get-random-values) |
+| createHash | [create-hash](https://github.com/browserify/createHash) |
+| createHmac | [create-hmac](https://github.com/browserify/createHmac) |
+| getHashes | [browserify-sign/algos](https://github.com/browserify/browserify-sign) |
+| pbkdf2 | [pbkdf2](https://github.com/browserify/pbkdf2) |
+| pbkdf2Sync | [pbkdf2](https://github.com/browserify/pbkdf2) |
+| createCipher,createCipheriv,createDecipher,createDecipheriv,getCiphers,listCiphers | [browserify-cipher](https://github.com/browserify/browserify-cipher) |
+| createDiffieHellmanGroup,getDiffieHellman,createDiffieHellman | [diffie-hellman](https://www.npmjs.com/package/diffie-hellman) |
+| createSign,createVerify | [browserify-sign](https://github.com/browserify/browserify-sign) |
+| createECDH | [create-ecdh](https://github.com/browserify/createECDH) |
+| publicEncrypt,privateEncrypt,publicDecrypt | [public-encrypt](https://github.com/browserify/publicEncrypt) |
+| randomFill,randomFillSync | [randomfill](https://github.com/browserify/randomfill) |

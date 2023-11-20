@@ -1,10 +1,12 @@
+let crypto = require.resolve("./crypto-module.js");
+
 exports.assert = require.resolve("assert/");
 exports.buffer = require.resolve("buffer/");
 exports.child_process = null;
 exports.cluster = null;
 exports.console = require.resolve("console-browserify");
 exports.constants = require.resolve("constants-browserify");
-exports.crypto = require.resolve("react-native-crypto");
+exports.crypto = crypto;
 exports.dgram = null;
 exports.dns = null;
 exports.domain = require.resolve("domain-browser");
