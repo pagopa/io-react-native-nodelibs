@@ -1,6 +1,6 @@
 {
   "name": "@pagopa/react-native-nodelibs",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Node core modules for React Native",
   "repository": {
     "type": "git",

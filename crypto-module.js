@@ -8,7 +8,7 @@ require("react-native-get-random-values");
 exports.getRandomValues = crypto.getRandomValues;
 
 // Implementation of getRandomBytes using getRandomValues
-randomBytes = (size, callback) => {
+exports.randomBytes = (size, callback) => {
   const array = new Uint32Array(size);
   if (callback) {
     callback();
