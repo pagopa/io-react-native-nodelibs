@@ -99,9 +99,9 @@ Below are the various modules implemented on `crypto`
 | getHashes | [browserify-sign/algos](https://github.com/browserify/browserify-sign) |
 | pbkdf2 | [pbkdf2](https://github.com/browserify/pbkdf2) |
 | pbkdf2Sync | [pbkdf2](https://github.com/browserify/pbkdf2) |
-| createCipher,createCipheriv,createDecipher,createDecipheriv,getCiphers,listCiphers | [browserify-cipher](https://github.com/browserify/browserify-cipher) |
-| createDiffieHellmanGroup,getDiffieHellman,createDiffieHellman | [diffie-hellman](https://www.npmjs.com/package/diffie-hellman) |
-| createSign,createVerify | [browserify-sign](https://github.com/browserify/browserify-sign) |
+| createCipher, createCipheriv, createDecipher, createDecipheriv, getCiphers, listCiphers | [browserify-cipher](https://github.com/browserify/browserify-cipher) |
+| createDiffieHellmanGroup, getDiffieHellman, createDiffieHellman | [diffie-hellman](https://www.npmjs.com/package/diffie-hellman) |
+| createSign, createVerify | [browserify-sign](https://github.com/browserify/browserify-sign) |
 | createECDH | [create-ecdh](https://github.com/browserify/createECDH) |
-| publicEncrypt,privateEncrypt,publicDecrypt | [public-encrypt](https://github.com/browserify/publicEncrypt) |
-| randomFill,randomFillSync | [randomfill](https://github.com/browserify/randomfill) |
+| publicEncrypt, privateEncrypt, publicDecrypt | [public-encrypt](https://github.com/browserify/publicEncrypt) |
+| randomFill, randomFillSync | [randomfill](https://github.com/browserify/randomfill) |
